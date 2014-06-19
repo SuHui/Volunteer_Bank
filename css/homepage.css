@@ -1,0 +1,16 @@
+.header .pull-left,.header .pull-right {
+width:51%;
+text-align:right;
+position:fixed;
+top:0;
+right:0;
+z-index:1;
+padding-top:20px;
+}
+
+.header .pull-left {
+text-align:left;
+padding-top:18px;
+left:0;
+z-index:10;
+}

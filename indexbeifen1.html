@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>NodeBB - Modern Forum Software</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="NodeBB Forum Software - The Modern Discussion Platform">
+    <meta name="author" content="DesignCreatePlay Inc.">
+    <meta name="keywords" content="nodebb, node.js, forum, discussion, community, software, hosting">
+    <link rel="stylesheet" type="text/css" href="css/home.css">
+    <link href='//fonts.googleapis.com/css?family=Alegreya+Sans+SC:300,100|Indie+Flower|Roboto+Slab:700|Roboto:400,500,300,700' rel='stylesheet' type='text/css'>
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" type="text/css" href="dist/onepage-scroll/jquery.onepage-scroll.css">
+    <link rel="stylesheet" href="dist/fancybox/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+	<link rel="stylesheet" href="dist/fancybox/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
+	<link rel="stylesheet" href="dist/fancybox/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
+	<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+  </head>
+  <body>
+  	<div class="header">
+  		<div class="pull-left">
+  			<span>
+				<a href="//www.facebook.com/NodeBB" target="_blank"><span class="fa-stack fa-lg">
+					<i class="fa fa-circle fa-stack-2x background"></i>
+					<i class="fa fa-facebook-square fa-stack-1x fa-inverse foreground"></i>
+				</span></a>
+				<a href="//www.twitter.com/NodeBB" target="_blank"><span class="fa-stack fa-lg">
+					<i class="fa fa-circle fa-stack-2x background"></i>
+					<i class="fa fa-twitter fa-stack-1x fa-inverse foreground"></i>
+				</span></a>
+				<a href="//www.github.com/designcreateplay/NodeBB" target="_blank"><span class="fa-stack fa-lg">
+					<i class="fa fa-circle fa-stack-2x background"></i>
+					<i class="fa fa-github-alt fa-stack-1x fa-inverse foreground"></i>
+				</span></a>
+				<a href="http://community.nodebb.org" target="_blank"><span class="fa-stack fa-lg">
+					<i class="fa fa-circle fa-stack-2x background"></i>
+					<i class="fa fa-comments fa-stack-1x fa-inverse foreground"></i>
+				</span></a>
+			</span>
+  		</div>
+  		<div class="pull-right">
+  			
+	  		<a href="#" class="activateOverlay signin"><strong>sign in</strong></a>
+	  		<a href="#" class="activateOverlay register"><strong>register</strong></a>
+	  		
+			<a href="#plans" class="moveToPlans"><strong>plans</strong></a>
+			<a class="" href="http://blog.nodebb.org"><strong>blog</strong></a>
+	  		<a class="hide-mobile" href="//www.github.com/designcreateplay/NodeBB" target="_blank"><strong>github</strong></a>
+	  		<a class="hide-mobile" href="http://community.nodebb.org" target="_blank"><strong>community</strong></a>
+	  	</div>
+  	</div>
+
+  	<div class="logo hide-mobile">
+  		<img class="default" src="./images/nodebb-hexagon-logo.png" />
+  		<img class="alt invisible" src="./images/nodebb-hexagon-logo-inverted.png" />
+  	</div>
+
+
+  	<nav id="bt-menu" class="bt-menu">
+  		<img class="like-us" src="images/like-us.png" />
+	    <ul>
+	    	<!--<li><strong>Community</strong></li>
+	    	<li class="link"><a href="http://community.nodebb.org/" target="_blank">home</a></li>
+	    	<li class="link"><a href="http://community.nodebb.org/category/3/nodebb-development" target="_blank">development</a></li>
+	    	<li class="link"><a href="http://community.nodebb.org/category/7/nodebb-plugins" target="_blank">plugins</a></li>
+	    	<li class="link"><a href="http://community.nodebb.org/category/5/feature-requests" target="_blank">feature requests</a></li>-->
+
+	    	<li class="separate"><strong>Featured Forums</strong></li>
+	        <li class="link"><a href="http://convoe.com" target="_blank">Convoe</a></li>
+	        <li class="link"><a href="http://www.kano.me" target="_blank">Kano</a></li>
+	        <li class="link"><a href="http://community.onehundredfreebooks.com" target="_blank">OHFB</a></li>
+	        <!--
+	        <li class="link"><a href="http://www.dad-forums.com" target="_blank">Dad Forums</a></li>
+	        -->
+	        <li class="link"><a href="http://community.nodebb.org" target="_blank">NodeBB</a></li>
+	    </ul>
+	    <div class="bt-overlay"></div>
+	</nav>
+
+  	<div class="main">
+
+  	<section class="page page-1">
+  		<div class="pin-to-top black">
+	    	<h1 class="text-bottom"><span class="white">NodeBB</span><br />
+			<span class="black"><span class="hide-mobile">Modern</span> Forum Software</span></h1>
+	    </div>
+	    <div class="pin-to-bottom">
+	    	<img src="./images/recent.png" />
+	    	<div class="animation">
+		    	<span class="slide slide-in slide-1 subtext">The worlds first <strong>mobile friendly forum platform</strong> is finally here.</span><br /><br />
+		    	<span class="slide slide-in slide-2 subtext"><strong>NodeBB</strong> lets you take discussions to a whole new level.</span><br /><br />
+		    	<button class="slide slide-in slide-3 cta activateOverlay register">Sign Up Now</button>
+		    </div>
+	    </div>
+  	</section>
+
+  	<section class="page page-2">
+  		<div class="pin-to-top"><img src="./images/iphone-topic.png" /></div>
+  		<div class="pin-to-bottom black">
+	    	<h1 class="text-top"><span class="black slide slide-down">Works</span><br />
+			<span class="white slide slide-down">On all devices</span></h1>
+
+			<span class="subtext white slide slide-down">Browsing discussions made lightning fast with <br />
+				<strong>Instant updates</strong>, <strong>social notifications</strong>, and <strong>streaming discussions</strong>.</span><br />
+	    </div>
+  	</section>
+
+  	<section class="page page-3">
+  		<div class="pin-to-top black">
+	    	<h1 class="text-bottom"><span class="white">Featured NodeBB forum</span><br />
+			<span class="black slide slide-down">convoe.com</span></h1>
+	    </div>
+	    <div class="pin-to-bottom">
+	    	<span class="thumbnails" data-toggle="lightbox">
+				<a href="./images/convoe-homepage.png" class="fancybox thumbnail img-thumbnail" rel="features-gallery">
+					<img src="./images/convoe-homepage-thumb.png" alt="">
+				</a>
+				<a href="./images/convoe-topic.png" class="fancybox thumbnail img-thumbnail" rel="features-gallery">
+					<img src="./images/convoe-topic-thumb.png" alt="">
+				</a>
+				<br class="small-only" />
+				<a href="./images/convoe-notifications.png" class="fancybox thumbnail img-thumbnail" rel="features-gallery">
+					<img src="./images/convoe-notifications-thumb.png" alt="">
+				</a>
+				<a href="./images/convoe-profile.png" class="fancybox thumbnail img-thumbnail not-important" rel="features-gallery">
+					<img src="./images/convoe-profile-thumb.png" alt="">
+				</a>
+				<a href="./images/convoe-category.png" class="fancybox thumbnail img-thumbnail" rel="features-gallery">
+					<img src="./images/convoe-category-thumb.png" alt="">
+				</a>
+			</span>
+
+			<span class="subtext slide slide-down hide-mobile"><a href="http://convoe.com" target="_blank">Convoe: A better Discussion Community</a><br />
+			Created by Trevor Williams</span><br />
+	    </div>
+  	</section>
+
+  	<section class="page page-4">
+  		<div class="pin-to-top">
+  			<span class="subtext"><strong>Customizable</strong>. <strong>Themable</strong>. <strong>Social</strong>.<br />
+			Keep users engaged by gamifying your community</span><br />
+  		</div>
+  		<div class="pin-to-bottom black">
+  			<h1 class="text-top"><span class="black">Plugins?</span><br />
+			<span class="white slide slide-down">One click install.<br /></span></h1>
+			<small><a class="slide slide-down" href="http://community.nodebb.org/category/7/nodebb-plugins" target="_blank">Click to see all plugins</a></small>
+
+			<div class="carousel">
+				<div class="thumb">
+					<span>Cash MOD</span>
+					<a href="http://community.nodebb.org/topic/145/nodebb-plugin-cash-cash-mod" target="_blank"><img src="images/plugins_cash.png" /></a>
+				</div>
+				<div class="thumb">
+					<span>Markdown</span>
+					<a href="http://community.nodebb.org/topic/77/nodebb-plugin-markdown-markdown-parser" target="_blank"><img src="images/plugins_markdown.png" /></a>
+				</div>
+				<div class="thumb">
+					<span>Emoticons</span>
+					<a href="http://community.nodebb.org/topic/83/nodebb-plugin-emoji-skype-skype-emoji" target="_blank"><img src="images/plugins_emoticons.png" /></a>
+				</div>
+				<div class="thumb">
+					<span>Mentions</span>
+					<a href="http://community.nodebb.org/topic/76/nodebb-plugin-mentions-username-mentions-have-landed" target="_blank"><img src="images/plugins_mentions.png" /></a>
+				</div>
+				<div class="thumb not-important">
+					<span>AdSense</span>
+					<a href="http://community.nodebb.org/topic/248/nodebb-plugin-adsense-adsense-plugin" target="_blank"><img src="images/plugins_ads.png" /></a>
+				</div>
+			</div>
+			<div class="carousel second">
+				<div class="thumb"><br />
+					<span>SoundCloud</span>
+					<a href="http://community.nodebb.org/topic/221/nodebb-plugin-soundcloud-soundcloud-embed-plugin" target="_blank"><img src="images/plugins_soundcloud.png" /></a>
+				</div>
+				<div class="thumb"><br />
+					<span>Dailymotion</span>
+					<a href="http://community.nodebb.org/topic/223/nodebb-plugin-dailymotion-dailymotion-embed-plugin" target="_blank"><img src="images/plugins_dailymotion.png" /></a>
+				</div>
+				<div class="thumb"><br />
+					<span>Youtube</span>
+					<a href="http://community.nodebb.org/topic/211/nodebb-plugin-youtube-youtube-embed-plugin" target="_blank"><img src="images/plugins_youtube.png" /></a>
+				</div>
+				<div class="thumb"><br />
+					<span>Vimeo</span>
+					<a href="http://community.nodebb.org/topic/217/nodebb-plugin-vimeo-vimeo-embed-plugin" target="_blank"><img src="images/plugins_vimeo.png" /></a>
+				</div>
+				<div class="thumb not-important"><br />
+					<span>Steam SSO</span>
+					<a href="http://community.nodebb.org/topic/300/nodebb-plugin-openid-steam-steam-openid-register-login" target="_blank"><img src="images/plugins_steam.png" /></a>
+				</div>
+			</div>
+  		</div>
+  	</section>
+
+  	<section class="page page-5">
+  		<div class="pin-to-top black hide-mobile">
+  			<div class="pricing">
+				<button class="not-important activateOverlay register">
+					<h4><i class="fa fa-home"></i> Hamlet Plan</h4>
+					<div class="price-container">
+						<span class="currency desktop-only">$</span>
+						<span class="price">35</span>
+						<span class="duration">per<br />month</span>
+					</h4>
+					<span class="terms">Weekly backups, up to 250 users, community support only.</span>
+				</button>
+				<button class="activateOverlay popular register">
+					<span class="popular-text">Most Popular</span>
+					<h4><i class="fa fa-group"></i> Village Plan</h4>
+					<div class="price-container">
+						<span class="currency desktop-only">$</span>
+						<span class="price">75</span>
+						<span class="duration">per<br />month</span>
+					</h4>
+					<span class="terms">Daily backups, SSL support, Custom DNS, up to 1000 users. Community and online support.</span>
+				</button>
+				<button class="not-important activateOverlay register">
+					<h4><i class="fa fa-building-o"></i> City Plan</h4>
+					<div class="price-container">
+						<span class="currency desktop-only">$</span>
+						<span class="price">100</span>
+						<span class="duration">per<br />month</span>
+					</h4>
+					<span class="terms">Hourly backups, SSL support, Custom DNS, up to 10,000 users. Community and online support.</span>
+				</button>
+			</div>
+			<h1 class="text-bottom"><span class="white">Sign up today</span><br />
+			<span class="black slide slide-down">Join the discussion revolution</span></h1>
+  		</div>
+  		<div class="pin-to-bottom">
+			<span class="subtext"><strong>NodeBB Forums</strong><br />
+			The discussion platform of the future</span><br /><br />
+			<button class="cta slide slide-down activateOverlay register">Sign Up Now</button>
+  		</div>
+
+  		<button class="cta-mobile activateOverlay register">Sign Up Now</button>
+  		<span class="subtext copyright hide-mobile">Copyright &copy; 2013 <a href="http://www.designcreateplay.com" target="_blank">Design Create Play</a> | <a href="/tos">privacy policy</a> |  <a href="mailto:sales@nodebb.org">contact us</a></span>
+  	</section>
+
+	</div><!-- end .main -->
+
+	<div id="overlay">
+	</div>
+
+	<div class="modal loginModal">
+		<div class="container">
+			<h2 class="modal-message">Create a NodeBB account to continue.</h2>
+
+			<form id="loginForm" action="./register" method="post">
+				<input class="email" type='text' placeholder="email@domain.com" name="email" id="email"><br />
+				<input class="password" type="password" placeholder="password" name="password" id="password"><br />
+				<input type="hidden" id="csrf" name="_csrf" value="r3RSFtoNQvSybVDhEJJAlq+IEl/nIXZjBtJJg=" />
+				<input type="hidden" id="referral_id" name="referral_id" value="" />
+				<label class="readtos">
+					<br /><input type="checkbox" name="readtos" id="readtos" /> I have read and agree to the <a href="./tos">terms and conditions</a><br />
+				</label>
+			</form>
+			<button class="submit">Register</button><br />
+			<a href="#" class="cancelModal">cancel</a>
+			<a href="#" class="passwordReset">forgot password?</a>
+		</div>
+	</div>
+
+	<div class="modal passwordResetModal">
+		<div class="container">
+			<h2 class="modal-message">Enter email address.</h2>
+			<form id="resetForm" action="./reset" method="post">
+				<input class="email" type='text' placeholder="email@domain.com" name="email" id="email"><br />
+				<input type="hidden" id="csrf" name="_csrf" value="r3RSFtoNQvSybVDhEJJAlq+IEl/nIXZjBtJJg=" />
+			</form>
+			<button class="submit">Send</button><br />
+			<a href="#" class="cancelModal">cancel</a>
+		</div>
+	</div>
+
+	<div class="modal resetModal">
+		<div class="container">
+			<h2 class="modal-message">Reset Password</h2>
+			<form id="resetForm" action="" method="post">
+				<input class="password" type="password" placeholder="New Password" name="password" id="password"><br />
+				<input class="password" type="password" placeholder="Password Again" name="passwordAgain" id="passwordAgain"><br />
+				<input type="hidden" id="csrf" name="_csrf" value="r3RSFtoNQvSybVDhEJJAlq+IEl/nIXZjBtJJg=" />
+				<input type="hidden" id="code" name="code" value="" />
+			</form>
+			<button class="submit">Reset Password</button><br />
+			<a href="#" class="cancelModal">cancel</a>
+		</div>
+	</div>
+
+	<div id="alert_window"></div>
+
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="dist/onepage-scroll/jquery.onepage-scroll.min.js"></script>
+	<script type="text/javascript" src="dist/jquery.mousewheel.js"></script>
+	<script type="text/javascript" src="dist/fancybox/jquery.fancybox.pack.js?v=2.1.5"></script>
+	<script type="text/javascript" src="dist/fancybox/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+	<script type="text/javascript" src="dist/fancybox/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+	<script type="text/javascript" src="dist/fancybox/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+	<script src="lib/homepage.js"></script>
+	<script src="lib/main.js"></script>
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		ga('create', 'UA-45914244-2', 'nodebb.org');
+		ga('send', 'pageview');
+	</script>
+	<script type="text/javascript">
+		var fb_param = {};
+		fb_param.pixel_id = '6013069992218';
+		fb_param.value = '0.00';
+		fb_param.currency = 'USD';
+		(function(){
+			var fpw = document.createElement('script');
+			fpw.async = true;
+			fpw.src = '//connect.facebook.net/en_US/fp.js';
+			var ref = document.getElementsByTagName('script')[0];
+			ref.parentNode.insertBefore(fpw, ref);
+		})();
+	</script>
+	<noscript><img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/offsite_event.php?id=6013069992218&amp;value=0&amp;currency=USD" /></noscript>
+  </body>
+</html>
